@@ -28,6 +28,8 @@ services:
       # Do not modify this value after it's generated!
       # If you do, you'll lose access to all credentials
       # encrypted with the previous value.
+      - key : WEBHOOK_URL
+      value : https://n8n-service-5ues.onrender.com/
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
 
